@@ -1,0 +1,43 @@
+:root {
+    --color-background-light: rgb(202, 235, 233);
+    --color-background-dark: rgb(148, 186, 197);
+    --color-text-dark: rgb(2, 19, 44);
+
+}
+
+
+
+body {
+    background: linear-gradient(to right, var(--color-background-dark)
+    , var(--color-background-light ));
+}
+
+
+
+
+
+main {
+    width: 50%;
+    
+    margin: 50px auto;
+    /* margin auto centres */
+    text-align: center;
+}
+
+table{
+    margin:  50px auto;
+}
+
+table,th,td {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th,td{
+    padding: 5px;
+}
+
+:root {
+  
+    color: var(--color-text-light);
+}
